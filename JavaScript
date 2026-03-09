@@ -1,0 +1,10 @@
+fetch('https://api.github.com/users/rjmn-systems/repos')
+.then(response => response.json())
+.then(data => {
+const ul = document.getElementById('portfolio');
+data.forEach(repo => {
+const li = document.createElement('li');
+li.innerHTML = `<a href="${repo.html_url}" target="_blank">${repo.name}</a>`;
+ul.appendChild(li);
+});
+});
