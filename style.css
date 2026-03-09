@@ -6,9 +6,19 @@ color:white;
 }
 
 header{
-background:#1e3a8a;
-padding:40px;
+background:linear-gradient(90deg,#1e3a8a,#0ea5e9);
+padding:60px;
 text-align:center;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:5px;
 }
 
 nav{
@@ -21,14 +31,16 @@ nav a{
 color:white;
 margin:15px;
 text-decoration:none;
+font-weight:bold;
 }
 
 section{
-padding:40px;
+padding:60px;
+text-align:center;
 }
 
 footer{
-text-align:center;
-padding:20px;
 background:black;
-  }
+padding:20px;
+text-align:center;
+}
